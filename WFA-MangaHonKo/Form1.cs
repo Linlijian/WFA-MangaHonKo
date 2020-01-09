@@ -16,5 +16,10 @@ namespace WFA_MangaHonKo
         {
             InitializeComponent();
         }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            btnHome.selected = true;
+        }
     }
 }
