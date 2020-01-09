@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu.Core">
+      <HintPath>..\..\Resources\Bunifu.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\..\Resources\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>

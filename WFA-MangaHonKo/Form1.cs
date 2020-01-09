@@ -21,5 +21,30 @@ namespace WFA_MangaHonKo
         {
             btnHome.selected = true;
         }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            if(panelLeft.Width == 190)
+            {
+                panelLeft.Width = 60;
+            }
+            else
+            {
+                panelLeft.Width = 190;
+            }
+        }
+
+       
+        //private void btnSearch_Click(object sender, EventArgs e)
+        //{
+        //    if (panelSearch.Width == 261)
+        //    {
+        //        panelSearch.Width = 49;
+        //    }
+        //    else
+        //    {
+        //        panelSearch.Width = 261;
+        //    }
+        //}
     }
 }
