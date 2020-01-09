@@ -34,17 +34,22 @@ namespace WFA_MangaHonKo
             }
         }
 
-       
-        //private void btnSearch_Click(object sender, EventArgs e)
-        //{
-        //    if (panelSearch.Width == 261)
-        //    {
-        //        panelSearch.Width = 49;
-        //    }
-        //    else
-        //    {
-        //        panelSearch.Width = 261;
-        //    }
-        //}
+        private void btnFromClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnFromMaximize_Click(object sender, EventArgs e)
+        {
+            if(this.WindowState == FormWindowState.Maximized)
+                this.WindowState = FormWindowState.Normal;
+            else
+                this.WindowState = FormWindowState.Maximized;
+        }
+
+        private void btnFromMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
