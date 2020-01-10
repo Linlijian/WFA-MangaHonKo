@@ -208,17 +208,17 @@
   </data>
   <data name="btnSetting.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAI4SURBVFhH7Va7ThtREF2JzkCJeAsRIRAIiVTUqXkKwi8kJRXPBoRIKMlnpAg10IELqFwACg0K
-        BZEIVAiwse+6uZyZPbYQ11kW4dUKyUcaeXzmzMx97d31aniXsMZcwewz+8dwvLD5fGeF5oHl8x2UxQfr
-        +5NsuENKVmSX3ASp+IAmP7RZofCdlAd/gwPYJPU2oNAH2AkKr2HG/coVix/hH7KRhT+tYgD+5yf8AbRD
-        5Ae0hjHH+O1WcRQgYatcMLDfMJ/+H9istTZFuSe+csacU2Ngp/RL9ovycGCkn5iQhf9Tf4P/MoA5NKuj
-        1IHEoJmn1q2B2pRWBgscqdj3F8ml4M9gWYdVFAGi1W3hKsFf0ppSO2QCsvRfKSzikWon7QAFp6FJw25o
-        aXBTDDuQx1NrBqvwhbQLFBmE6K8KjTmD2Dk40Kwy7prvr1BWBng50GfUXEgPhirDPjy0QZhhgtx4vQxJ
-        sVHyPgotYoBdasESBzM0ZoRy0ffBSrdmBrVbGQoH9qkeCZeayMdQgP/75BZIlQFuWWPG7JESboDcpdQk
-        HQ1IutVkaxtJCRec5lyuhVQZMjuNGXNPSibSSO6WVHQg6U6TrW0g9dIAZOuqMwAkJrcFrzqE2WyT2v8P
-        YQ8s+iFEoWQfQwheexEVaFW6iJK+igUYYXIvoxIgTu51LIA42Q+SMKBY6ZNsnZRs2zcOoDqfZGFAk3E2
-        2yYl3A65MVLxQa5hNnMtl2umLF6g2bXTHDcewzW8J3jeI6JE4heDnK6+AAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAjhJREFUWEft
+        VrtOG1EQXYnOQIl4CxEhEAiJVNSpeQrCLyQlFc8GhEgoyWekCDXQgQuoXAAKDQoFkQhUCLCx77q5nJk9
+        thDXWRbh1QrJRxp5fObMzH3t3fVqeJewxlzB7DP7x3C8sPl8Z4XmgeXzHZTFB+v7k2y4Q0pWZJfcBKn4
+        gCY/tFmh8J2UB3+DA9gk9Tag0AfYCQqvYcb9yhWLH+EfspGFP61iAP7nJ/wBtEPkB7SGMcf47VZxFCBh
+        q1wwsN8wn/4f2Ky1NkW5J75yxpxTY2Cn9Ev2i/JwYKSfmJCF/1N/g/8ygDk0q6PUgcSgmafWrYHalFYG
+        Cxyp2PcXyaXgz2BZh1UUAaLVbeEqwV/SmlI7ZAKy9F8pLOKRaiftAAWnoUnDbmhpcFMMO5DHU2sGq/CF
+        tAsUGYTorwqNOYPYOTjQrDLumu+vUFYGeDnQZ9RcSA+GKsM+PLRBmGGC3Hi9DEmxUfI+Ci1igF1qwRIH
+        MzRmhHLR98FKt2YGtVsZCgf2qR4Jl5rIx1CA//vkFkiVAW5ZY8bskRJugNyl1CQdDUi61WRrG0kJF5zm
+        XK6FVBkyO40Zc09KJtJI7pZUdCDpTpOtbSD10gBk66ozACQmtwWvOoTZbJPa/w9hDyz6IUShZB9DCF57
+        ERVoVbqIkr6KBRhhci+jEiBO7nUsgDjZD5IwoFjpk2ydlGzbNw6gOp9kYUCTcTbbJiXcDrkxUvFBrmE2
+        cy2Xa6YsXqDZtdMcNx7DNbwneN4jokTiF4Ocrr4AAAAASUVORK5CYII=
 </value>
   </data>
   <data name="btnFavorites.Iconimage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

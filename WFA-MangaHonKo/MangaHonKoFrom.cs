@@ -18,29 +18,15 @@ namespace WFA_MangaHonKo
         {
             InitializeComponent();
         }
-
-        private void btnHome_Click(object sender, EventArgs e)
-        {
-            btnHome.selected = true;
-        }
-
+        #region from button        
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            if(panelLeft.Width == 190)
-            {
-                panelLeft.Width = 60;
-            }
-            else
-            {
-                panelLeft.Width = 190;
-            }
+            UserControlHelper.SetControlSizePanel(panelLeft, 190, 60);
         }
-
         private void btnFromClose_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
         private void btnFromMaximize_Click(object sender, EventArgs e)
         {
             if(this.WindowState == FormWindowState.Maximized)
@@ -48,21 +34,34 @@ namespace WFA_MangaHonKo
             else
                 this.WindowState = FormWindowState.Maximized;
         }
-
         private void btnFromMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;            
         }
-
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            UserControlHelper.SetUserControl(panelBody, userControl: new UCHome());
+        }
         private void btnCatalogs_Click(object sender, EventArgs e)
         {
             UserControlHelper.SetUserControl(panelBody, userControl: new UCCatalogs());
         }
-
         private void btnUpdates_Click(object sender, EventArgs e)
         {
             UserControlHelper.SetUserControl(panelBody, userControl: new UCUpdates());
         }
+        private void btnFavorites_Click(object sender, EventArgs e)
+        {
+            UserControlHelper.SetUserControl(panelBody, userControl: new UCFavorites());
+        }
+        private void btnSetting_Click(object sender, EventArgs e)
+        {
+            UserControlHelper.SetUserControl(panelBody, userControl: new UCSetting());
+        }
+        #endregion
+        
+
+        
 
         //UserControlHelper.ClearFormControls(this);
     }

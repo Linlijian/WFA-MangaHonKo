@@ -18,5 +18,31 @@ namespace WFA_MangaHonKo.Helper
             panel.Controls.Clear();
             panel.Controls.Add(userControl);
         }
+        public static void SetControlSizePanel(Panel panel, int widthBefore = 0, int widthAfter = 0)
+        {
+            if(widthBefore != 0)
+            {
+                if(widthAfter != 0)
+                {
+                    if (panel.Width == widthBefore)
+                    {
+                        panel.Width = widthAfter;
+                    }
+                    else
+                    {
+                        panel.Width = widthBefore;
+                    }
+                }
+                else
+                {
+                    panel.Width = widthBefore;
+                }
+            }
+            else
+            {
+                panel.Width = widthBefore;
+            }           
+        }
+
     }
 }
