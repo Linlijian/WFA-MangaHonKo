@@ -54,16 +54,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Helper\UserControlHelper.cs" />
+    <Compile Include="MangaHonKoFrom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="MangaHonKoFrom.Designer.cs">
+      <DependentUpon>MangaHonKoFrom.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="UserControl\UCCatalogs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UCCatalogs.Designer.cs">
+      <DependentUpon>UCCatalogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCFavorites.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UCFavorites.Designer.cs">
+      <DependentUpon>UCFavorites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UCHome.Designer.cs">
+      <DependentUpon>UCHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UCSetting.Designer.cs">
+      <DependentUpon>UCSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCUpdates.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UCUpdates.Designer.cs">
+      <DependentUpon>UCUpdates.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MangaHonKoFrom.resx">
+      <DependentUpon>MangaHonKoFrom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,6 +105,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserControl\UCCatalogs.resx">
+      <DependentUpon>UCCatalogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UCFavorites.resx">
+      <DependentUpon>UCFavorites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UCHome.resx">
+      <DependentUpon>UCHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UCSetting.resx">
+      <DependentUpon>UCSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UCUpdates.resx">
+      <DependentUpon>UCUpdates.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -86,6 +132,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MangaLibrary\MangaLibrary.csproj">
+      <Project>{71391724-a90d-4afb-b0d5-046daa7c0a47}</Project>
+      <Name>MangaLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

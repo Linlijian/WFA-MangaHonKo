@@ -46,6 +46,8 @@
             this.panelMenu = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuDragControlMoveFrom = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.panelBody = new System.Windows.Forms.Panel();
+            this.btnSetting = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnFromMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnFromMaximize)).BeginInit();
@@ -175,6 +177,7 @@
             // panelLeft
             // 
             this.panelLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(16)))), ((int)(((byte)(19)))));
+            this.panelLeft.Controls.Add(this.btnSetting);
             this.panelLeft.Controls.Add(this.btnFavorites);
             this.panelLeft.Controls.Add(this.btnUpdates);
             this.panelLeft.Controls.Add(this.btnCatalogs);
@@ -259,6 +262,7 @@
             this.btnUpdates.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnUpdates.Textcolor = System.Drawing.Color.Gainsboro;
             this.btnUpdates.TextFont = new System.Drawing.Font("Itim", 12F);
+            this.btnUpdates.Click += new System.EventHandler(this.btnUpdates_Click);
             // 
             // btnCatalogs
             // 
@@ -296,6 +300,7 @@
             this.btnCatalogs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnCatalogs.Textcolor = System.Drawing.Color.Gainsboro;
             this.btnCatalogs.TextFont = new System.Drawing.Font("Itim", 12F);
+            this.btnCatalogs.Click += new System.EventHandler(this.btnCatalogs_Click);
             // 
             // btnHome
             // 
@@ -365,11 +370,57 @@
             this.bunifuDragControlMoveFrom.TargetControl = this.panelTop;
             this.bunifuDragControlMoveFrom.Vertical = true;
             // 
+            // panelBody
+            // 
+            this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelBody.Location = new System.Drawing.Point(253, 57);
+            this.panelBody.Name = "panelBody";
+            this.panelBody.Size = new System.Drawing.Size(944, 699);
+            this.panelBody.TabIndex = 3;
+            // 
+            // btnSetting
+            // 
+            this.btnSetting.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(125)))), ((int)(((byte)(154)))));
+            this.btnSetting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.btnSetting.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSetting.BorderRadius = 0;
+            this.btnSetting.ButtonText = "Setting";
+            this.btnSetting.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSetting.DisabledColor = System.Drawing.Color.Gray;
+            this.btnSetting.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnSetting.Font = new System.Drawing.Font("Itim", 12F);
+            this.btnSetting.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnSetting.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnSetting.Iconimage")));
+            this.btnSetting.Iconimage_right = null;
+            this.btnSetting.Iconimage_right_Selected = null;
+            this.btnSetting.Iconimage_Selected = null;
+            this.btnSetting.IconMarginLeft = 30;
+            this.btnSetting.IconMarginRight = 0;
+            this.btnSetting.IconRightVisible = true;
+            this.btnSetting.IconRightZoom = 0D;
+            this.btnSetting.IconVisible = true;
+            this.btnSetting.IconZoom = 50D;
+            this.btnSetting.IsTab = true;
+            this.btnSetting.Location = new System.Drawing.Point(0, 652);
+            this.btnSetting.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnSetting.Name = "btnSetting";
+            this.btnSetting.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.btnSetting.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
+            this.btnSetting.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnSetting.selected = false;
+            this.btnSetting.Size = new System.Drawing.Size(253, 47);
+            this.btnSetting.TabIndex = 9;
+            this.btnSetting.Text = "Setting";
+            this.btnSetting.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSetting.Textcolor = System.Drawing.Color.Gainsboro;
+            this.btnSetting.TextFont = new System.Drawing.Font("Itim", 12F);
+            // 
             // MangaHonKoFrom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1197, 756);
+            this.Controls.Add(this.panelBody);
             this.Controls.Add(this.panelLeft);
             this.Controls.Add(this.panelTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -408,6 +459,8 @@
         private Bunifu.Framework.UI.BunifuImageButton btnFromMaximize;
         private Bunifu.Framework.UI.BunifuImageButton btnFromClose;
         private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox1;
+        private System.Windows.Forms.Panel panelBody;
+        private Bunifu.Framework.UI.BunifuFlatButton btnSetting;
     }
 }
 

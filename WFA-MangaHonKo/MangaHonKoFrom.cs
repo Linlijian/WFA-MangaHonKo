@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MangaLibrary;
+using WFA_MangaHonKo.Helper;
 
 namespace WFA_MangaHonKo
 {
@@ -49,7 +51,19 @@ namespace WFA_MangaHonKo
 
         private void btnFromMinimize_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+            this.WindowState = FormWindowState.Minimized;            
         }
+
+        private void btnCatalogs_Click(object sender, EventArgs e)
+        {
+            UserControlHelper.SetUserControl(panelBody, userControl: new UCCatalogs());
+        }
+
+        private void btnUpdates_Click(object sender, EventArgs e)
+        {
+            UserControlHelper.SetUserControl(panelBody, userControl: new UCUpdates());
+        }
+
+        //UserControlHelper.ClearFormControls(this);
     }
 }
