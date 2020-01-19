@@ -40,7 +40,7 @@ namespace WFA_MangaHonKo
         }
         private void btnHome_Click(object sender, EventArgs e)
         {
-            UserControlHelper.SetUserControl(panelBody, userControl: new UCHome());
+            UserControlHelper.SetUserControl(panelBody, userControl: new UCHome(), dockStyle: UserControlDockStyle.DockStyleFill);
         }
         private void btnCatalogs_Click(object sender, EventArgs e)
         {
