@@ -175,7 +175,7 @@
   <data name="bunifuTextbox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAwAAAAB/CAYAAABYHaUHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAATjSURBVHhe7dbRihuHFkTR/P9P3wuBMh1le5xJbI8OrAX7
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATjSURBVHhe7dbRihuHFkTR/P9P3wuBMh1le5xJbI8OrAX7
         5ajV0mP98ZP8T5IkSdIv70vVH5IkSZL0e/pt6sclSZIkfU2/TP2YJEmSpPfop6ofkCRJkvRe/RT1YkmS
         JEnv2b9WL5MkSZJ0o0+rl3w2AADg82pbf7ZPqRf8KAAA4NepDf6j/pH64kcBAAC/T23yj/pQfeGjAACA
         r1H7/Ht9Vz1cAQAAX6+2epXqwQoAAHgftdmrv6mHXgMAAN5PbffX/qIeqAAAgPdU+/21b+rD1wAAgPdV
@@ -202,7 +202,7 @@
   <data name="bunifuTextbox1.Icon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAAYSURBVEhL7cEBAQAAAIIg/6+uIUAAAFwNCRgAAdACW14A
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYSURBVEhL7cEBAQAAAIIg/6+uIUAAAFwNCRgAAdACW14A
         AAAASUVORK5CYII=
 </value>
   </data>
@@ -304,5 +304,8 @@
   </data>
   <metadata name="bunifuDragControlMoveFrom.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>161, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>41</value>
   </metadata>
 </root>

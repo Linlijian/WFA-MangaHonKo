@@ -70,8 +70,9 @@
             this.panelTop.Controls.Add(this.bunifuTextbox1);
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
+            this.panelTop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(1197, 57);
+            this.panelTop.Size = new System.Drawing.Size(898, 46);
             this.panelTop.TabIndex = 1;
             // 
             // lblMangaHonKo
@@ -80,9 +81,10 @@
             this.lblMangaHonKo.BackColor = System.Drawing.Color.Black;
             this.lblMangaHonKo.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMangaHonKo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
-            this.lblMangaHonKo.Location = new System.Drawing.Point(56, 18);
+            this.lblMangaHonKo.Location = new System.Drawing.Point(42, 15);
+            this.lblMangaHonKo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMangaHonKo.Name = "lblMangaHonKo";
-            this.lblMangaHonKo.Size = new System.Drawing.Size(125, 24);
+            this.lblMangaHonKo.Size = new System.Drawing.Size(101, 19);
             this.lblMangaHonKo.TabIndex = 2;
             this.lblMangaHonKo.Text = "MangaHonKo";
             // 
@@ -92,9 +94,10 @@
             this.btnFromMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(16)))), ((int)(((byte)(19)))));
             this.btnFromMinimize.Image = ((System.Drawing.Image)(resources.GetObject("btnFromMinimize.Image")));
             this.btnFromMinimize.ImageActive = null;
-            this.btnFromMinimize.Location = new System.Drawing.Point(1092, 3);
+            this.btnFromMinimize.Location = new System.Drawing.Point(819, 2);
+            this.btnFromMinimize.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFromMinimize.Name = "btnFromMinimize";
-            this.btnFromMinimize.Size = new System.Drawing.Size(30, 30);
+            this.btnFromMinimize.Size = new System.Drawing.Size(22, 24);
             this.btnFromMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnFromMinimize.TabIndex = 2;
             this.btnFromMinimize.TabStop = false;
@@ -107,9 +110,10 @@
             this.btnFromMaximize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(16)))), ((int)(((byte)(19)))));
             this.btnFromMaximize.Image = ((System.Drawing.Image)(resources.GetObject("btnFromMaximize.Image")));
             this.btnFromMaximize.ImageActive = null;
-            this.btnFromMaximize.Location = new System.Drawing.Point(1128, 3);
+            this.btnFromMaximize.Location = new System.Drawing.Point(846, 2);
+            this.btnFromMaximize.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFromMaximize.Name = "btnFromMaximize";
-            this.btnFromMaximize.Size = new System.Drawing.Size(30, 30);
+            this.btnFromMaximize.Size = new System.Drawing.Size(22, 24);
             this.btnFromMaximize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnFromMaximize.TabIndex = 2;
             this.btnFromMaximize.TabStop = false;
@@ -122,9 +126,10 @@
             this.btnFromSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(16)))), ((int)(((byte)(19)))));
             this.btnFromSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnFromSearch.Image")));
             this.btnFromSearch.ImageActive = null;
-            this.btnFromSearch.Location = new System.Drawing.Point(1056, 3);
+            this.btnFromSearch.Location = new System.Drawing.Point(792, 2);
+            this.btnFromSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFromSearch.Name = "btnFromSearch";
-            this.btnFromSearch.Size = new System.Drawing.Size(30, 30);
+            this.btnFromSearch.Size = new System.Drawing.Size(22, 24);
             this.btnFromSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnFromSearch.TabIndex = 2;
             this.btnFromSearch.TabStop = false;
@@ -136,9 +141,10 @@
             this.btnFromClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(16)))), ((int)(((byte)(19)))));
             this.btnFromClose.Image = ((System.Drawing.Image)(resources.GetObject("btnFromClose.Image")));
             this.btnFromClose.ImageActive = null;
-            this.btnFromClose.Location = new System.Drawing.Point(1164, 3);
+            this.btnFromClose.Location = new System.Drawing.Point(873, 2);
+            this.btnFromClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFromClose.Name = "btnFromClose";
-            this.btnFromClose.Size = new System.Drawing.Size(30, 30);
+            this.btnFromClose.Size = new System.Drawing.Size(22, 24);
             this.btnFromClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnFromClose.TabIndex = 2;
             this.btnFromClose.TabStop = false;
@@ -150,9 +156,10 @@
             this.btnMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(16)))), ((int)(((byte)(19)))));
             this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
             this.btnMenu.ImageActive = null;
-            this.btnMenu.Location = new System.Drawing.Point(12, 12);
+            this.btnMenu.Location = new System.Drawing.Point(9, 10);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(38, 35);
+            this.btnMenu.Size = new System.Drawing.Size(28, 28);
             this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMenu.TabIndex = 2;
             this.btnMenu.TabStop = false;
@@ -167,10 +174,9 @@
             this.bunifuTextbox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuTextbox1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
-            this.bunifuTextbox1.Location = new System.Drawing.Point(850, 3);
-            this.bunifuTextbox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuTextbox1.Location = new System.Drawing.Point(638, 2);
             this.bunifuTextbox1.Name = "bunifuTextbox1";
-            this.bunifuTextbox1.Size = new System.Drawing.Size(199, 33);
+            this.bunifuTextbox1.Size = new System.Drawing.Size(149, 27);
             this.bunifuTextbox1.TabIndex = 4;
             this.bunifuTextbox1.text = "";
             // 
@@ -184,9 +190,10 @@
             this.panelLeft.Controls.Add(this.btnHome);
             this.panelLeft.Controls.Add(this.panelMenu);
             this.panelLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelLeft.Location = new System.Drawing.Point(0, 57);
+            this.panelLeft.Location = new System.Drawing.Point(0, 46);
+            this.panelLeft.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelLeft.Name = "panelLeft";
-            this.panelLeft.Size = new System.Drawing.Size(253, 699);
+            this.panelLeft.Size = new System.Drawing.Size(190, 568);
             this.panelLeft.TabIndex = 2;
             // 
             // btnSetting
@@ -212,14 +219,14 @@
             this.btnSetting.IconVisible = true;
             this.btnSetting.IconZoom = 50D;
             this.btnSetting.IsTab = true;
-            this.btnSetting.Location = new System.Drawing.Point(0, 652);
-            this.btnSetting.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnSetting.Location = new System.Drawing.Point(0, 530);
+            this.btnSetting.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSetting.Name = "btnSetting";
             this.btnSetting.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btnSetting.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.btnSetting.OnHoverTextColor = System.Drawing.Color.White;
             this.btnSetting.selected = false;
-            this.btnSetting.Size = new System.Drawing.Size(253, 47);
+            this.btnSetting.Size = new System.Drawing.Size(190, 38);
             this.btnSetting.TabIndex = 9;
             this.btnSetting.Text = "Setting";
             this.btnSetting.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -250,14 +257,14 @@
             this.btnFavorites.IconVisible = true;
             this.btnFavorites.IconZoom = 50D;
             this.btnFavorites.IsTab = true;
-            this.btnFavorites.Location = new System.Drawing.Point(0, 201);
-            this.btnFavorites.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnFavorites.Location = new System.Drawing.Point(0, 163);
+            this.btnFavorites.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnFavorites.Name = "btnFavorites";
             this.btnFavorites.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btnFavorites.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.btnFavorites.OnHoverTextColor = System.Drawing.Color.White;
             this.btnFavorites.selected = false;
-            this.btnFavorites.Size = new System.Drawing.Size(253, 47);
+            this.btnFavorites.Size = new System.Drawing.Size(190, 38);
             this.btnFavorites.TabIndex = 8;
             this.btnFavorites.Text = "Favorites";
             this.btnFavorites.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -288,14 +295,14 @@
             this.btnUpdates.IconVisible = true;
             this.btnUpdates.IconZoom = 50D;
             this.btnUpdates.IsTab = true;
-            this.btnUpdates.Location = new System.Drawing.Point(0, 154);
-            this.btnUpdates.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnUpdates.Location = new System.Drawing.Point(0, 125);
+            this.btnUpdates.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnUpdates.Name = "btnUpdates";
             this.btnUpdates.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btnUpdates.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.btnUpdates.OnHoverTextColor = System.Drawing.Color.White;
             this.btnUpdates.selected = false;
-            this.btnUpdates.Size = new System.Drawing.Size(253, 47);
+            this.btnUpdates.Size = new System.Drawing.Size(190, 38);
             this.btnUpdates.TabIndex = 7;
             this.btnUpdates.Text = "Updates";
             this.btnUpdates.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -326,14 +333,14 @@
             this.btnCatalogs.IconVisible = true;
             this.btnCatalogs.IconZoom = 50D;
             this.btnCatalogs.IsTab = true;
-            this.btnCatalogs.Location = new System.Drawing.Point(0, 107);
-            this.btnCatalogs.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnCatalogs.Location = new System.Drawing.Point(0, 87);
+            this.btnCatalogs.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCatalogs.Name = "btnCatalogs";
             this.btnCatalogs.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btnCatalogs.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.btnCatalogs.OnHoverTextColor = System.Drawing.Color.White;
             this.btnCatalogs.selected = false;
-            this.btnCatalogs.Size = new System.Drawing.Size(253, 47);
+            this.btnCatalogs.Size = new System.Drawing.Size(190, 38);
             this.btnCatalogs.TabIndex = 6;
             this.btnCatalogs.Text = "Catalogs";
             this.btnCatalogs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -364,15 +371,15 @@
             this.btnHome.IconVisible = true;
             this.btnHome.IconZoom = 50D;
             this.btnHome.IsTab = true;
-            this.btnHome.Location = new System.Drawing.Point(0, 60);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnHome.Location = new System.Drawing.Point(0, 49);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHome.Name = "btnHome";
             this.btnHome.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btnHome.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.btnHome.OnHoverTextColor = System.Drawing.Color.White;
             this.btnHome.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.btnHome.selected = true;
-            this.btnHome.Size = new System.Drawing.Size(253, 47);
+            this.btnHome.Size = new System.Drawing.Size(190, 38);
             this.btnHome.TabIndex = 5;
             this.btnHome.Text = "Home";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -385,8 +392,9 @@
             this.panelMenu.Controls.Add(this.bunifuCustomLabel1);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(253, 60);
+            this.panelMenu.Size = new System.Drawing.Size(190, 49);
             this.panelMenu.TabIndex = 4;
             // 
             // bunifuCustomLabel1
@@ -396,9 +404,10 @@
             this.bunifuCustomLabel1.BackColor = System.Drawing.Color.Black;
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Itim", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(8, 30);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(6, 24);
+            this.bunifuCustomLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(64, 24);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(53, 19);
             this.bunifuCustomLabel1.TabIndex = 2;
             this.bunifuCustomLabel1.Text = "MENU";
             // 
@@ -412,23 +421,26 @@
             // panelBody
             // 
             this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBody.Location = new System.Drawing.Point(253, 57);
+            this.panelBody.Location = new System.Drawing.Point(190, 46);
+            this.panelBody.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelBody.Name = "panelBody";
-            this.panelBody.Size = new System.Drawing.Size(944, 699);
+            this.panelBody.Size = new System.Drawing.Size(708, 568);
             this.panelBody.TabIndex = 3;
             // 
             // MangaHonKoFrom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1197, 756);
+            this.ClientSize = new System.Drawing.Size(898, 614);
             this.Controls.Add(this.panelBody);
             this.Controls.Add(this.panelLeft);
             this.Controls.Add(this.panelTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MangaHonKoFrom";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MangaHonKo";
+            this.Load += new System.EventHandler(this.MangaHonKoFrom_Load);
             this.panelTop.ResumeLayout(false);
             this.panelTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnFromMinimize)).EndInit();

@@ -14,10 +14,17 @@ namespace WFA_MangaHonKo
 {
     public partial class MangaHonKoFrom : Form
     {
+        #region Initial
         public MangaHonKoFrom()
         {
             InitializeComponent();
         }
+        private void MangaHonKoFrom_Load(object sender, EventArgs e)
+        {
+            UserControlHelper.SetUserControl(panelBody, userControl: new UCHome());
+        }
+        #endregion
+
         #region from button        
         private void btnMenu_Click(object sender, EventArgs e)
         {
@@ -59,9 +66,9 @@ namespace WFA_MangaHonKo
             UserControlHelper.SetUserControl(panelBody, userControl: new UCSetting());
         }
         #endregion
-        
 
-        
+
+
 
         //UserControlHelper.ClearFormControls(this);
     }
