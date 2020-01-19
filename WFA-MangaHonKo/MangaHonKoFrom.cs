@@ -44,19 +44,19 @@ namespace WFA_MangaHonKo
         }
         private void btnCatalogs_Click(object sender, EventArgs e)
         {
-            UserControlHelper.SetUserControl(panelBody, userControl: new UCCatalogs());
+            UserControlHelper.SetUserControl(panelBody, userControl: new UCCatalogs(), dockStyle: UserControlDockStyle.DockStyleFill);
         }
         private void btnUpdates_Click(object sender, EventArgs e)
         {
-            UserControlHelper.SetUserControl(panelBody, userControl: new UCUpdates());
+            UserControlHelper.SetUserControl(panelBody, userControl: new UCUpdates(), dockStyle: UserControlDockStyle.DockStyleFill);
         }
         private void btnFavorites_Click(object sender, EventArgs e)
         {
-            UserControlHelper.SetUserControl(panelBody, userControl: new UCFavorites());
+            UserControlHelper.SetUserControl(panelBody, userControl: new UCFavorites(), dockStyle: UserControlDockStyle.DockStyleFill);
         }
         private void btnSetting_Click(object sender, EventArgs e)
         {
-            UserControlHelper.SetUserControl(panelBody, userControl: new UCSetting());
+            UserControlHelper.SetUserControl(panelBody, userControl: new UCSetting(), dockStyle: UserControlDockStyle.DockStyleFill);
         }
         #endregion
         
